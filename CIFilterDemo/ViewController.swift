@@ -27,7 +27,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func valueChanged(_ sender: UISlider) {
-        let image = CIImage(image: UIImage(named: "DemoIMG")!)
+        let image = CIImage(image: UIImage(named: "DemoImage")!)
         
         let colorfilter = CIFilter(name: "CIColorControls")
         colorfilter?.setValue(image, forKey: kCIInputImageKey)

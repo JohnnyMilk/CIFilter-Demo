@@ -68,7 +68,7 @@
                                 <color key="textColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DemoIMG" translatesAutoresizingMaskIntoConstraints="NO" id="1Rz-2h-l48">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DemoImage" translatesAutoresizingMaskIntoConstraints="NO" id="1Rz-2h-l48">
                                 <rect key="frame" x="70" y="50" width="275" height="275"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="1Rz-2h-l48" secondAttribute="height" multiplier="1:1" id="szb-IF-G6j"/>
@@ -130,6 +130,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="DemoIMG" width="512" height="512"/>
+        <image name="DemoImage" width="512" height="512"/>
     </resources>
 </document>
